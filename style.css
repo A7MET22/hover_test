@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    overflow: hidden;
+    background-color: #09c;
+}
+
+.child{
+    background-color: darkcyan;
+    width: 23.7%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 8px;
+}
+
+img{
+    width: 100%;
+}
+
+.caption{
+    position: absolute;
+    background-color: #09c;
+    opacity: 0.6;
+    text-align: center;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: top 1s;
+}
+
+h2{
+    background: burlywood;
+    padding: 10px;
+    margin: 0;
+}
+
+.child:hover .caption{
+    top: 0;
+}
